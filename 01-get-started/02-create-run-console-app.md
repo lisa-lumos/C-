@@ -45,7 +45,7 @@ This creates dll files in the ./bin/Debug/net7.0 folder.
 
 ### Run
 Run the app using `dotnet run`:
-```cd
+```console
 lisa@mac16 ~/D/c/0/c/app1 (main)> dotnet run
 Hello, World!
 ```
