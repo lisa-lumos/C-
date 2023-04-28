@@ -14,3 +14,23 @@ int studentCount = students.Length;
 Console.WriteLine("The final name is: " + students[studentCount]);
 ```
 
+Once you've tested the Debug version of your application, you should also compile and test the Release version. The Release version incorporates compiler optimizations that can affect the behavior of an application. For example, compiler optimizations that are designed to improve performance can create race conditions in multithreaded applications.
+
+To build and test the Release version of your console application, run: `dotnet run --configuration Release`. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

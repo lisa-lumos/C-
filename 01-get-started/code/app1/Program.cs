@@ -182,3 +182,29 @@
 // string[] students = new string[] {"Sophia", "Nicolas", "Zahirah", "Jeong"};
 // int studentCount = students.Length;
 // Console.WriteLine("The final name is: " + students[studentCount]);
+
+namespace HelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Console.WriteLine("Hello, World!");
+            Console.WriteLine("What is your name?");
+            var name = Console.ReadLine();
+            var currentDate = DateTime.Now;
+            Console.WriteLine($"{Environment.NewLine}Hello, {name}, on {currentDate:d} at {currentDate:t}!");
+            Console.Write($"{Environment.NewLine}Press any key to exit...");
+            Console.ReadKey(true);
+        }
+    }
+}
+// What is your name?
+// lisa
+
+// Hello, lisa, on 4/28/2023 at 9:08 AM!
+
+// Press any key to exit...  
+
+
+
